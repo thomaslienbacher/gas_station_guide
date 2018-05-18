@@ -1,0 +1,28 @@
+Features:
+
+* Login und Registrierung
+
+* Admin Bereich
+	* Tankstellen hinzufügen
+	* Tankstellen entfernen
+	* Tankstellen bearbeiten
+
+* User Bereich
+	* Tankstelle bewerten
+	* Tankstelle kommentieren
+	
+* Public Bereich
+	* Tankstellen ansehen
+
+* Tankstellen Display
+	* Name
+	* Google Maps Ort
+	* Bewertung 
+	* Kommentaren
+	* Eigenschaften
+	
+* Eigenschaften
+	* Hat Toillete
+	* Preise
+	* Shop
+	* usw.

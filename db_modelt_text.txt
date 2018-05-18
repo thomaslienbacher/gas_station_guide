@@ -1,0 +1,26 @@
+Database:
+
+Tables:
+* stations
+* features
+* comments
+* stations_has_features
+* stations_has_comments
+
+stations:
+* id 
+* name
+* position //point
+* imageurl 
+* user_id //manages station
+
+features:
+* id
+* key
+* value
+
+comments:
+* id
+* user_id
+* text
+* rating

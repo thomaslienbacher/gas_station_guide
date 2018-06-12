@@ -12,6 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -49,7 +50,7 @@
                             </a>
                         </li>
                         <li class="nav-item @php if(Route::currentRouteName() == 'search') echo 'active' @endphp">
-                            <a class="nav-link" href="/search">Suche
+                            <a class="nav-link" href="/search">Suchen
                             </a>
                         </li>
 

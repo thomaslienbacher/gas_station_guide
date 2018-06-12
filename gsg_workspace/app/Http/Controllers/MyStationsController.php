@@ -32,7 +32,6 @@ class MyStationsController extends Controller
             );
         }
 
-
         $stations = DB::table('stations')->where("userid", "=", Auth::id())->get();
 
         return view('auth.mystations', compact("stations"));

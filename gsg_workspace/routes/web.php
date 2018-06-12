@@ -23,5 +23,6 @@ Route::get('/mystations',  ['as' => 'auth.mystations', 'uses' => 'MyStationsCont
 Route::post('/mystations',  ['as' => 'auth.mystations', 'uses' => 'MyStationsController@index']);
 
 Route::get('/search', 'SearchController@index')->name("search");
+Route::post('/search', 'SearchController@index')->name("search");
 
 Route::post('/view', 'StationViewController@index')->name("view");

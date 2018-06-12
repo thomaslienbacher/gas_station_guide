@@ -1,0 +1,10 @@
+* Station creation input isn't validated
+* When changing anything in the Settings everything needs to be changed
+	plus most errors don't show up
+* Almost none Form validation and error
+* Different languages
+* Adjust width of form elements in Login and Register
+* Links and forms actions don't use {{ route(...) }} but are hardcoded
+* Comments don't show date and time
+* Database entries don't have date and time stamps on them (created_at, updated_at)
+* Inconsistencies in width of content also in the size of padding

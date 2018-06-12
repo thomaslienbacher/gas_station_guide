@@ -20,5 +20,8 @@ Route::get('/settings',  ['as' => 'auth.settings', 'uses' => 'SettingsController
 Route::post('/settings', 'SettingsController@update');
 
 Route::get('/mystations',  ['as' => 'auth.mystations', 'uses' => 'MyStationsController@index']);
+Route::post('/mystations',  ['as' => 'auth.mystations', 'uses' => 'MyStationsController@index']);
 
 Route::get('/search', 'SearchController@index')->name("search");
+
+Route::post('/view', 'StationViewController@index')->name("view");

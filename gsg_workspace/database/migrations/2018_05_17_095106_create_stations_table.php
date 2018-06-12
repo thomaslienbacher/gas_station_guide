@@ -15,8 +15,10 @@
             Schema::create('stations', function (Blueprint $table) {
                 $table->increments('id');
                 $table->string("name");
-                $table->point("position");
+                $table->double("lat");
+                $table->double("long");
                 $table->string("imageurl");
+                $table->text("description");
                 $table->unsignedInteger("userid");
                 $table->timestamps();
             });

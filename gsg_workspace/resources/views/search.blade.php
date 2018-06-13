@@ -78,6 +78,20 @@
                                     <span class="fa fa-star rating-star@php if(round($value->stars) >= 5) echo '-good' @endphp"></span>
                                     <span class="rating-text">{{ $value->stars }}</span>
                                 </div>
+
+                                <form method="POST" action="/view">
+                                    @csrf
+
+                                    <input name="stationid" type="hidden" value="{{ $value->id }}">
+
+                                    <div class="form-group row mb-0">
+                                        <div class="col-md-12 offset-md-0">
+                                            <button type="submit" class="btn btn-primary wide-button">
+                                                Ansehen
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
                             </il>
                         @endforeach
                     </ul>

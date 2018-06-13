@@ -1,3 +1,11 @@
+Todo:
+* Add MyComments site
+* Make Home site
+* Restyle site to look black
+* Make template to display station in basic form factor
+* Create function to get stars for a station
+
+Problems:
 * Station creation input isn't validated
 * When changing anything in the Settings everything needs to be changed
 	plus most errors don't show up
@@ -8,3 +16,6 @@
 * Comments don't show date and time
 * Database entries don't have date and time stamps on them (created_at, updated_at)
 * Inconsistencies in width of content also in the size of padding
+* Vertical Spacing in generell is very inconsitent
+* Advanced Textarea editor
+* Comments can't be edited and deleted

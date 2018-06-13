@@ -72,6 +72,22 @@
                                 </form>
                                 <br>
 
+                                <form method="POST">
+                                    @csrf
+
+                                    <input name="todo" type="hidden" value="delete">
+                                    <input name="stationid" type="hidden" value="{{ $value->id }}">
+
+                                    <div class="form-group row mb-0">
+                                        <div class="col-md-12 offset-md-0">
+                                            <button type="submit" class="btn btn-primary wide-button">
+                                                Löschen
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <br>
+
                                 <form method="POST" action="/view">
                                     @csrf
 

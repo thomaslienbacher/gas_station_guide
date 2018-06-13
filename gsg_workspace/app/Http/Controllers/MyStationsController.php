@@ -32,6 +32,10 @@ class MyStationsController extends Controller
             );
         }
 
+        if($request->input('todo') == "delete") {
+            DB::table('stations')->where('id', $request->input('stationid'))->delete();
+        }
+
         $stations = DB::table('stations')->where("userid", "=", Auth::id())->get();
 
         return view('auth.mystations', compact("stations"));

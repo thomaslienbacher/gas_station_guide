@@ -131,9 +131,8 @@
                         </div>
                     </form>
 
-
                     @else
-                        Anmelden um Bewertungen abzugeben
+                        Anmelden um Bewertung aufzugeben
                     @endif
 
                 </div>

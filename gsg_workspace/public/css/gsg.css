@@ -1,35 +1,42 @@
 .wide-button {
-     width: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.wide-button:hover {
+    width: 100%;
+    background-color: #323232;
 }
 
 .rating-star {
-     color: #f0f0f0;
-     font-size: 180%;
+    color: #f0f0f0;
+    font-size: 180%;
 }
 
 .rating-star-good {
-     color: #f7f700;
-     font-size: 180%;
+    color: #f7f700;
+    font-size: 180%;
 }
 
 .rating-star-small {
-     color: #f0f0f0;
-     font-size: 130%;
+    color: #f0f0f0;
+    font-size: 130%;
 }
 
 .rating-star-small-good {
-     color: #f7f700;
-     font-size: 130%;
+    color: #f7f700;
+    font-size: 130%;
 }
 
 .rating-text {
-     font-size: 180%;
-     padding-left: 3em;
+    font-size: 180%;
+    padding-left: 3em;
 }
 
 .rating-button {
-     background:transparent;
-     border:none;
-     color:transparent;
-     padding: 0;
+    background: transparent;
+    border: none;
+    color: transparent;
+    padding: 0;
 }
+

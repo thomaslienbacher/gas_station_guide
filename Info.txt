@@ -1,6 +1,5 @@
 Todo:
 * Add MyComments site
-* Make Home site
 * Restyle site to look black
 * Make template to display station in basic form factor
 * Create function to get stars for a station
